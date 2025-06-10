@@ -1,0 +1,726 @@
+.sell_banner{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10vh;
+}
+.sell_img_banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.sell_img_banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+section.sell_on {
+    width: 84%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* Left Contact Info */
+.sell_details {
+    flex: 1;
+    width: 35%;
+    /* background-color: yellow; */
+    padding: 20px;
+}
+
+.sell_details .sell_info {
+    margin-bottom: 25px;
+}
+
+.sell_details h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sell_details a {
+    color: #1bc100; /* Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sell_details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Social Icons */
+.footer-column .socials a {
+    font-size: 18px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.footer-column .socials a:hover {
+    color: #1bc100;
+}
+
+/* Right Contact Form */
+.sell_form {
+    flex: 2;
+    width: 60%;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.sell_form form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+}
+
+.sell_form input,
+.sell_form select,
+.sell_form textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+
+/* Phone dropdown style */
+/* .phone-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+.phone-input-container select {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    text-align: end;
+} */
+
+.phone-input-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    padding: 3px;
+    width: 100%;
+}
+.phone-input-container select {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 5px;
+    text-align: end;
+}
+.phone-input-container input {
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.message label {
+    font-weight: bold;
+}
+
+.message textarea,
+.message input[type="textareaa"] {
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+.understand {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+}
+.understand input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.understand label {
+    line-height: 1.5;
+    width: 90%;
+}
+
+.understand a {
+    color: #1bc100;
+    text-decoration: none;
+}
+
+.submit_btn {
+    text-align: center;
+}
+
+.submit_btn button {
+    background-color: #1bc100;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 60%;
+}
+
+.submit_btn button:hover {
+    background-color: #189a00;
+}
+
+/* CONTACT US */
+.breadcrumb {
+    width: 83%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 14px;
+    padding: 20px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #999;
+    font-size: 18px;
+    font-style: italic;
+  }
+  .breadcrumb a:hover,
+  .breadcrumb a:active{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    transition: 1s;
+  }
+  .contact_section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .contact_info_box {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    /* max-width: 350px; */
+  }
+  
+  .contact_info_box hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .info_card {
+    text-align: left;
+  }
+  
+  .icon {
+    font-size: 28px;
+    color: rgba(125, 183, 1, 1);
+    margin-bottom: 10px;
+  }
+  .contact_form_box {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    /* max-width: 650px; */
+  }
+  
+  .contact_form_box form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact_form_box form .form_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .contact_form_box form .form_row input {
+    flex: 1;
+    min-width: 150px;
+    padding: 12px;
+    /* border: 1px solid #ddd; */
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .contact_form_box form textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    font-family: inherit;
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .contact_form_box form button {
+    background-color: rgba(125, 183, 1, 1);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background 0.3s;
+  }
+  
+  .contact_form_box form button:hover {
+    background-color: rgba(100, 150, 1, 1);
+  }
+  .error_box {
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: none;
+  }
+  
+  input.error,
+  textarea.error {
+    border-color: red !important;
+  }
+  
+  .subcribe_to{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter_section {
+    width: 88%;
+    background-color: rgba(248, 248, 248, 1);
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 10px;
+  }
+  
+  .newsletter_section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter_section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter_section .newsletter_form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .newsletter_section .newsletter_form input[type="email"] {
+    padding: 15px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 14px;
+    min-width: 280px;
+    text-align: center;
+  }
+  
+  .newsletter_section .newsletter_form button {
+    padding: 15px 30px;
+    background-color: rgba(125, 183, 1, 1);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .newsletter_section .newsletter_form button:hover {
+    background-color: rgba(100, 150, 1, 1);
+  }
+  
+  /* Responsive Design */
+  /* @media screen and (max-width: 768px) {
+    .contact_section {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .contact_form_box form .form_row {
+      flex-direction: column;
+    }
+  
+    .contact_form_box form .form_row input {
+      width: 100%;
+    }
+    .newsletter_section{
+        padding: 10px;
+    }
+  } */
+  
+
+/* RESPONSIVE */
+@media screen and (max-width: 400px){
+    .breadcrumb{
+        margin-top: 17vh;
+        width: 95%;
+    }
+    .sell_banner{
+        width: 88%;
+        height: 150px;
+        margin-top: -10px;
+    }
+    section.sell_on {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sell_details, .sell_form {
+        width: 90%;
+    }
+
+    .footer-column .socials {
+        justify-content: center;
+    }
+    section.sell_on{
+        width: 95%;
+        padding: 0;
+        margin-top: 40px;
+        gap: 0;
+    }
+    .sell_details {
+        width: 95%;
+        padding: 10px;
+    }
+    .sell_form{
+        width: 95%;
+        padding: 10px;
+        margin-top: -60px;
+    }
+    .sell_form form {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .newsletter_section{
+        padding: 20px;
+    }
+
+    .contact_section{
+        width: 95%;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+        margin: auto;
+    }
+    .contact_form_box form .form_row {
+    flex-direction: column;
+    }
+    .newsletter_section{
+        padding: 10px;
+    }
+    .contact_form_box form .form_row input {
+    width: 100%;
+    }
+    .contact_info_box,
+    .info_card,
+    .contact_form_box,
+    .subcribe_to{
+        width: 100%;
+    }
+}
+@media (min-width: 401px) and (max-width: 576px){
+    .breadcrumb{
+        margin-top: 17vh;
+        width: 95%;
+    }
+    .sell_banner{
+        width: 88%;
+        height: 200px;
+        margin-top: -10px;
+    }
+    section.sell_on {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sell_details, .sell_form {
+        width: 90%;
+    }
+
+    .footer-column .socials {
+        justify-content: center;
+    }
+    section.sell_on{
+        width: 95%;
+        padding: 0;
+        margin-top: 40px;
+        gap: 0;
+    }
+    .sell_details {
+        width: 95%;
+        padding: 10px;
+    }
+    .sell_form{
+        width: 95%;
+        padding: 10px;
+        margin-top: -60px;
+    }
+    .sell_form form {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .contact_section{
+        width: 95%;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+        margin: auto;
+    }
+    .contact_form_box form .form_row {
+    flex-direction: column;
+    }
+    .newsletter_section{
+        padding: 10px;
+    }
+    .contact_form_box form .form_row input {
+    width: 100%;
+    }
+    .contact_info_box,
+    .info_card,
+    .contact_form_box,
+    .subcribe_to{
+        width: 100%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+    .breadcrumb{
+        margin-top: 17vh;
+        width: 95%;
+    }
+    .sell_banner{
+        width: 88%;
+        height: 250px;
+        margin-top: -10px;
+    }
+    section.sell_on {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sell_details, .sell_form {
+        width: 90%;
+    }
+
+    .footer-column .socials {
+        justify-content: center;
+    }
+    section.sell_on{
+        width: 95%;
+        padding: 0;
+        margin-top: 40px;
+        gap: 0;
+    }
+    .sell_details {
+        width: 95%;
+        padding: 10px;
+    }
+    .sell_form{
+        width: 95%;
+        padding: 10px;
+        margin-top: -60px;
+    }
+    .sell_form form {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .contact_section{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+        margin: auto;
+    }
+    .contact_form_box form .form_row {
+    flex-direction: column;
+    }
+    .newsletter_section{
+        padding: 10px;
+    }
+    .contact_form_box form .form_row input {
+    width: 100%;
+    }
+    .contact_info_box,
+    .info_card,
+    .contact_form_box,
+    .subcribe_to{
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .breadcrumb{
+        margin-top: 20vh;
+        width: 90%;
+    }
+    .sell_banner{
+        width: 85%;
+        height: 300px;
+        margin-top: -10px;
+    }
+    section.sell_on {
+        width: 95%;
+        margin: auto;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .sell_details, .sell_form {
+        max-width: 100%;
+    }
+
+    .sell_form {
+        padding: 20px;
+    }
+
+    .footer-column .socials {
+        justify-content: center;
+    }
+    .sell_form{
+        width: 60%;
+        padding: 10px;
+    }
+    .sell_details {
+        width: 35%;
+        padding: 10px;
+    }
+    .sell_form form {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .contact_section {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .contact_info_box {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    /* max-width: 350px; */
+  }
+  .contact_form_box {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    /* max-width: 650px; */
+  }
+}
+@media (min-width: 1021px) and (max-width: 1275px){
+    .breadcrumb{
+        margin-top: 25vh;
+        width: 97%;
+    }
+    .sell_banner{
+        width: 95%;
+        height: 400px;
+        margin-top: -10px;
+    }
+}
+

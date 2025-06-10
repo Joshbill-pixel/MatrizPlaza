@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+
+    <script src="https://kit.fontawesome.com/252fa3dfa3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/user_responsive_homepage.css">
+</head>
+<script>
+    (function (w, d, s, o, f, js, fjs) {
+        w[o] = w[o] || function () {
+            (w[o].q = w[o].q || []).push(arguments) };
+        js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+        js.id = o; js.src = f; js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs) }
+    (window, document, 'script', 'nw', 'https://chat.norby.io/widget'));
+    nw('init', {
+        apiKey: '8ee63069-aa32-4a70-b349-5b01ef0b7506',
+        serviceBaseUrl: 'https://api.norby.io',
+        lang: 'en',
+        languageList: ['AR','DA','DE','EE','EN','ES','FI','FR','IT','JA','NO','PL','PT','RU','SV','TR','UA','ZH'],
+        mainColor: '#7bd701',
+        popupBotAvatarColor: '#7bd701',
+        multichat: true,
+        botName: 'Bot',
+        imageTransferEnabled: true,
+        side: 'right',
+        marginSideDesktop: 80,
+        marginBottomDesktop: 48,
+        marginSideMobile: 16,
+        marginBottomMobile: 16
+    });
+</script>
+<body>
+    <header>
+        <div class="navigation">
+            <div class="logo">
+                <img class="full-logo" src="../images/img/Group 1000006458.png" alt="">
+                <div class="logo1">
+                    <img src="../images/favicons/Matriz.jpg 1.png" alt="">
+                </div>
+                <div class="logoText">
+                    <h1>LIVE NOW</h1>
+                </div>
+                <div class="logo2">
+                    <img src="../images/favicons/Untitled-1 1.png" alt="">
+                </div>
+            </div>
+            <div class="search">
+                <!-- Hamburger Menu -->
+                <div class="hamburger">
+                    <i id="hamburger" class="fas fa-bars" onclick="toggleNav()"></i>
+                    
+                    <div class="matriz-logo">
+                        <img src="../images/favicons/MatrizPlaza Logo Design 1.png" alt="">
+                    </div>
+                </div>
+                <div class="matriz-logo" id="matriz-logo">
+                   <img src="../images/favicons/MatrizPlaza Logo Design 1.png" alt="">
+                </div>
+                <div class="search-bar">
+                    <div class="inSearch">
+                        <input type="search" name="search" id="search" placeholder="Search for products, brands and categories">
+                        <select name="" id="State">
+                            <option value="State">State</option>
+                            <option value="Lagos">Lagos</option>
+                            <option value="Abuja">Abuja</option>
+                            <option value="Calabar">Calabar</option>
+                            <option value="Kaduna">Kaduna</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <button type="submit">search</button>
+                </div>
+                <div class="contact-info">
+                    <div class="tele">
+                        <i class="fa-solid fa-phone fa-shake" style="color: rgba(3, 107, 22, 1);"></i>
+                    </div>
+                    <div class="tele-num">
+                        <div>Call for Deals</div>
+                        <div>+2348012345678</div>
+                    </div>
+                    <div class="cart_user_wish">
+                        <a href="./web/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="./web/login.html"><i class="fas fa-user"></i></a>
+                        <a href="web/wishlist.html"><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-links">
+                <div class="close-logo">
+                    <div class="menu-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="logo-close">
+                        <img src="../images/favicons/MatrizPlaza Logo Design 1.png" alt="">
+                   </div>
+                </div>
+                <hr class="link_hr">
+                <li><a href="../user_home_page.html" active>Home</a></li>
+                <li><a href="../web/sell_on.html">Sell on MatrizPlaza</a></li>
+                <li><a href="../web/contact.html">Contact</a></li>
+                <li><a href="../web/product_page.html">All Products</a></li>
+                <li><a href="">Drugs</a></li>
+                <li><a href="">Skin Care</a></li>
+                <li><a href="">Toiletries</a></li>
+                <li><a href="">Motther & Baby Care</a></li>
+                <li><a href="">Deodorants & Antiperspirants</a></li>
+                <li><a href="">Electronics</a></li>
+                <li><a href="">Groceries & Pets</a></li>
+                <li><a href="">Fashion</a></li>
+                <li><a href="">Supermarket</a></li>
+                <li><a href="">Foods</a></li>
+            </ul>
+            <nav>
+                <ul class="navbar-links">
+                    <li><a href="./index.html" active>Home</a></li>
+                    <li><a href="web/sell_on.html">Sell on MatrizPlaza</a></li>
+                    <li><a href="web/contact.html">Contact</a></li>
+                    <li><a href="web/product_page.html">All Products</a></li>
+                    <li><a href="">Drugs</a></li>
+                    <li><a href="">Skin Care</a></li>
+                    <li><a href="">Toiletries</a></li>
+                    <li><a href="">Motther & Baby Care</a></li>
+                    <li><a href="">Deodorants & Antiperspirants</a></li>
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">Groceries & Pets</a></li>
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">Supermarket</a></li>
+                    <li><a href="">Foods</a></li>
+                </ul>
+                <div class="nav_mid">
+                    <div class="navbar-link">
+                        <li><a href="../index.html" active>Home</a></li>
+                        <li><a href="web/sell_on.html">Sell on MatrizPlaza</a></li>
+                        <li><a href="web/contact.html">Contact</a></li>
+                    </div>
+     
+                    <div class="navbar-icons">
+                        <div class="user">
+                            <div class="user-dropdown">
+                                <button class="dropdown-toggle">
+                                    Hi, Samuel 
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a href="./profile_page.html"><i class="fas fa-user"></i> Account</a>
+                                    <a href="../index.html" class="logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <li><a href="web/signup.html">Sign Up</a></li>
+                            <li>/</li>
+                            <li><a href="web/login.html">Sign In</a></li>
+                        </div>
+                        <div class="icons">
+                            <div class="cart">
+                                <i class="fa-solid fa-shopping-cart fa-fade"></i>
+                                Cart
+                            </div>
+                            <div class="wishlist">
+                                <i class="fa-solid fa-heart fa-beat"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="search-bar" class="search-bar">
+                <div class="inSearch">
+                    <input type="search" name="search" id="search" placeholder="Search for products, brands and categories">
+                    <select name="" id="State">
+                        <option value="State">State</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Abuja">Abuja</option>
+                        <option value="Calabar">Calabar</option>
+                        <option value="Kaduna">Kaduna</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <button type="submit">search</button>
+            </div>
+
+            <div class="navbar2">
+                <div class="user">
+                    <div class="user-dropdown">
+                        <button class="dropdown-toggle">
+                            Hi, Samuel 
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="web/profile_page.html"><i class="fas fa-user"></i> Account</a>
+                            <a href="./index.html" class="logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="profile">
+        <div class="profile_container">
+            <div class="manage_account">
+                <h4 class="manage">Manage My Account</h4>
+                <div class="prof">
+                    <a href="#" class="my_prof">My Profile</a>
+                </div>
+                <div class="log">
+                    <a href="#" class="logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </div>
+            <div class="edit_profile">
+                <h4>Edit Your Profile</h4>
+                <form action="" method="POST" class="edit">
+                    <div class="input-box">
+                      <div class="h-input">
+                            <label>First Name</label>
+                            <input type="text" class="prof-input" name="fname" id="name" placeholder="Samuel">
+                        </div>
+                        <div class="h-input">
+                            <label>Last Name</label>
+                            <input type="text" class="prof-input" name="lname" id="name" placeholder="Adeniji">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="h-input">
+                            <label>Email</label>
+                            <input type="email" class="prof-input" name="email" id="email" placeholder="rimel111@gmail.com">
+                        </div>
+                        <div class="h-input">
+                            <label>Address</label>
+                            <input type="text" class="prof-input" name="address" id="address" placeholder="Plot 5 Ikeja Lagos Nigeria">
+                        </div>
+                    </div>
+                    <div class="l-input">
+                        <p>Password Changes</p>
+                        <input type="password" class="prof-input" name="password" id="password" placeholder="Current Password">
+                        <input type="password" class="prof-input" name="password" id="password" placeholder="New Password">
+                        <input type="password" class="prof-input" name="password" id="password" placeholder="Confirm New Password">
+                    </div>
+                    <div class="cancel-save">
+                        <button type="button" class="cancel">Cancel</button>
+                        <button type="submit" class="save">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+   <!-- FOOTER -->
+   <footer class="footer" id="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h2>
+                MatrizPlaza
+            </h2>
+            <p class="subs">Subscribe To Our Newsletter to get updates on our latest offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="submit">
+                    <img src="../images/favicons/icon-send.png" alt="">
+                </button>
+            </form>
+        </div>
+        <div class="footer-column">
+            <h4>Support</h4>
+            <div class="below">
+                <p>28 Ogunlowo St, off Obafemi Awolowo Road, Ikeja Lagos.</p>
+                <p class="mail"><a href="mailto:matrizplaza@gmail.com">matrizPlaza@gmail.com</a></p>
+                <p>+234 7054510343</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Login/Register</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="">Shop</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Quick Link</h4>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footer-column">
+            <h4>Join us on</h4>
+            <div class="socials" style="display: flex; gap: 20px;">
+                <a href="#"><i class="fab fa-twitter" style="color:#fff"></i></a>
+                <a href="#"><i class="fab fa-facebook" style="color:#fff"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color:#fff"></i></a>
+                <a href=""><i class="fab fa-linkedin" style="color:#fff"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; Copyright 2024 MatrizPlaza. All rights reserved.</p>
+    </div>
+</footer>
+
+    
+    <script src="js/main.js"></script>
+    <script src="js/authenticate.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+</html>

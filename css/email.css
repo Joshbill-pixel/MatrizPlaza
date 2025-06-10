@@ -1,0 +1,336 @@
+
+.email-ver{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.email-ver a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+.email-ver a:hover,
+.email-ver a:active{
+    text-decoration: underline;
+    font-size: 18px;
+    transform: 0.5s;
+}
+.continue{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.continue .cont{
+    width: 100%;
+}
+.try{
+    font-size: 16px;
+}
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.otp-input:focus {
+    border-color: #7bd701;
+    outline: none;
+}
+.try:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+.continue2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+.continue2 .cont2{
+    width: 100%;
+}
+.continue2 .no_otp{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.continue2 .no_otp a{
+    text-decoration: none;
+    color: #7bd701;
+}
+.continue2 .no_otp a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* BILLING DETAILS */
+.billing-text{
+    width: 78%;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.billing{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 0px;
+}
+.billing_form{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.billing_form>form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.inputs{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.inputs input{
+    width: 90%;
+    height: 50px;
+    background: #d0d0d0;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+}
+.inputs select{
+    width: 90%;
+    height: 50px;
+    background: #d0d0d0;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 20px;
+    border: none;
+    color: black;
+}
+.inputs label{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.inputs label>span{
+    color: red;
+}
+.check{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.check input[type="checkbox"] {
+    display: none;
+}
+.check input[type="checkbox"] + label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.check input[type="checkbox"] + label::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 8px;
+    transition: 0.3s;
+    background-color: white;
+}
+.check input[type="checkbox"]:active + label::before {
+    background-color: green;
+}
+.check input[type="checkbox"]:focus + label::before {
+    box-shadow: 0 0 5px green;
+}
+.check input[type="checkbox"]:checked + label::before {
+    background-color: green;
+    border-color: green;
+    content: "✔";
+    color: white;
+    text-align: center;
+    line-height: 18px;
+    font-weight: bold;
+}
+.billing_details{
+    width: 40%;
+}
+.details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.name-price{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    border-bottom: 1px solid black;
+}
+.debit_card{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.debit_card  .radio-btn1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card-payment{
+    width: 30%;
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-payment input,
+.radio-btn2 input{
+    width: 20px;
+    height: 20px;
+}
+.radio-btn2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.card-img{
+    width: 50%;
+}
+.cupon{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.cupon_input_btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cupon_input_btn input{
+    height: 45px;
+    padding: 10px;
+    width: 60%;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.cupon button{
+    height: 45px;
+    width: 36%;
+    border: none;
+    background-color: rgba(125, 183, 1, 1);
+    color: #fff;
+    border-radius: 8px;
+}
+.cupon_input_btn button:hover,
+.cupon button:hover,
+.delivery_info button:hover{
+    background-color: #28a745;
+    transition: 0.5s;
+}
+.delivery_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+.info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-icons{
+    width: 10%;
+    height: auto;
+    font-size: 30px;
+}
+.info-text{
+    width: 88%;
+}
+.info-text h2{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 20px;
+}
+.info-text p{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: 15px;
+}
+.delivery_info button{
+    height: 45px;
+    width: 36%;
+    border: none;
+    background-color: rgba(125, 183, 1, 1);
+    color: #fff;
+    border-radius: 8px;
+}

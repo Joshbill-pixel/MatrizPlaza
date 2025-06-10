@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+
+    <script src="https://kit.fontawesome.com/252fa3dfa3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/email.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<script>
+    (function (w, d, s, o, f, js, fjs) {
+        w[o] = w[o] || function () {
+            (w[o].q = w[o].q || []).push(arguments) };
+        js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+        js.id = o; js.src = f; js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs) }
+    (window, document, 'script', 'nw', 'https://chat.norby.io/widget'));
+    nw('init', {
+        apiKey: '8ee63069-aa32-4a70-b349-5b01ef0b7506',
+        serviceBaseUrl: 'https://api.norby.io',
+        lang: 'en',
+        languageList: ['AR','DA','DE','EE','EN','ES','FI','FR','IT','JA','NO','PL','PT','RU','SV','TR','UA','ZH'],
+        mainColor: '#7bd701',
+        popupBotAvatarColor: '#7bd701',
+        multichat: true,
+        botName: 'Bot',
+        imageTransferEnabled: true,
+        side: 'right',
+        marginSideDesktop: 80,
+        marginBottomDesktop: 48,
+        marginSideMobile: 16,
+        marginBottomMobile: 16
+    });
+</script>
+<body>
+    <!-- <header>
+        <div class="navigation">
+            <div class="logo">
+                <img class="full-logo" src="../images/img/Group 1000006458.png" alt="">
+                <div class="logo1">
+                    <img src="../images/favicons/Matriz.jpg 1.png" alt="">
+                </div>
+                <div class="logoText">
+                    <h1>LIVE NOW</h1>
+                </div>
+                <div class="logo2">
+                    <img src="images/favicons/Untitled-1 1.png" alt="">
+                </div>
+            </div>
+            <div class="search">
+                
+                <div class="hamburger">
+                    <i class="fas fa-bars" onclick="toggleNav()"></i>
+    
+                    <div class="matriz-logo">
+                        <img src="../images/favicons/MatrizPlaza Logo Design 1.png" alt="">
+                    </div>
+                </div>
+                <div class="matriz-logo">
+                    <img src="../images/favicons/MatrizPlaza Logo Design 1.png" alt="">
+                </div>
+                <div class="search-bar">
+                    <div class="inSearch">
+                        <input type="search" name="search" id="search" placeholder="Search for products, brands and categories">
+                        <select name="" id="State">
+                            <option value="State">State</option>
+                            <option value="Lagos">Lagos</option>
+                            <option value="Abuja">Abuja</option>
+                            <option value="Calabar">Calabar</option>
+                            <option value="Kaduna">Kaduna</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <button type="submit">search</button>
+                </div>
+                <div class="contact-info">
+                    <div class="tele">
+                        <i class="fa-solid fa-phone fa-shake" style="color: rgba(3, 107, 22, 1);"></i>
+                    </div>
+                    <div class="tele-num">
+                        <div>Call for Deals</div>
+                        <div>+2348012345678</div>
+                    </div>
+                    <div class="cart_user_wish">
+                        <a href="web/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="web/login.html"><i class="fas fa-user"></i></a>
+                        <a href="web/wishlist.html"><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <ul class="navbar-links">
+                    <li><a href="../index.html" active>Home</a></li>
+                    <li><a href="../web/sell_on.html">Sell on MatrizPlaza</a></li>
+                    <li><a href="../web/contact.html">Contact</a></li>
+                    <li><a href="web/product_page.html">All Products</a></li>
+                    <li><a href="">Drugs</a></li>
+                    <li><a href="">Skin Care</a></li>
+                    <li><a href="">Toiletries</a></li>
+                    <li><a href="">Motther & Baby Care</a></li>
+                    <li><a href="">Deodorants & Antiperspirants</a></li>
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">Groceries & Pets</a></li>
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">Supermarket</a></li>
+                    <li><a href="">Foods</a></li>
+                </ul>
+                <div class="nav_mid">
+                    <div class="navbar-link">
+                        <li><a href="../index.html" active>Home</a></li>
+                        <li><a href="#">Sell on MatrizPlaza</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </div>
+        
+                    <div class="navbar-icons">
+                        <div class="user">
+                            <li><a href="web/signup.html">Sign Up</a></li>
+                            <li>/</li>
+                            <li><a href="web/login.html">Sign In</a></li>
+                        </div>
+                        <div class="icons">
+                            <div class="cart">
+                                <i class="fa-solid fa-shopping-cart fa-fade"></i>
+                                Cart
+                            </div>
+                            <div class="wishlist">
+                                <i class="fa-solid fa-heart fa-beat"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="search-bar" class="search-bar">
+                <div class="inSearch">
+                    <input type="search" name="search" id="search" placeholder="Search for products, brands and categories">
+                    <select name="" id="State">
+                        <option value="State">State</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Abuja">Abuja</option>
+                        <option value="Calabar">Calabar</option>
+                        <option value="Kaduna">Kaduna</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <button type="submit">search</button>
+            </div>
+        </div>
+    </header> -->
+
+    <section class="login-container" id="login-container">
+        <form action="" method="">
+            <div class="form-text">
+                <h1>Email Verified</h1>
+                <p class="try">
+                    Congratulations ferro@admin.com is successful.
+                    We'll send instruction to the email you enter below
+                </p>
+            </div>
+            <div class="email-ver">
+                <input type="email" name="email" id="email" placeholder="Email Address">
+            </div>
+            <div class="continue">
+                <button type="submit" class="cont" href="./OTP.html">Continue</button> 
+            </div>
+        </form>
+    </section>
+
+     <!-- FOOTER -->
+   <!-- <footer class="footer">
+    <h2>
+        MatrizPlaza
+    </h2>
+    <div class="footer-container">
+        <div class="footer-column" id="footer-column1">
+            <p class="subs">Subscribe To Our Newsletter to get updates on our latest offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="submit">
+                    <img src="../images/favicons/icon-send.png" alt="">
+                </button>
+            </form>
+        </div>
+        <div class="footer-column" id="footer-column2">
+            <h4>Support</h4>
+            <div class="below">
+                <p>28 Ogunlowo St, off Obafemi Awolowo Road, Ikeja Lagos.</p>
+                <p class="mail"><a href="mailto:matrizplaza@gmail.com">matrizPlaza@gmail.com</a></p>
+                <p>+234 7054510343</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h4>Account</h4>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Login/Register</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="">Shop</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Quick Link</h4>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-column" id="footer-column">
+            <h4>Join us on</h4>
+            <div class="socials" style="display: flex; gap: 20px;">
+                <a href="#"><i class="fab fa-twitter" style="color:#fff"></i></a>
+                <a href="#"><i class="fab fa-facebook" style="color:#fff"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color:#fff"></i></a>
+                <a href=""><i class="fab fa-linkedin" style="color:#fff"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; Copyright 2024 MatrizPlaza. All rights reserved.</p>
+    </div>
+</footer> -->
+
+
+    <script src="../js/email_verification.js"></script>
+    <script src="../js/authenticate.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+</html>
