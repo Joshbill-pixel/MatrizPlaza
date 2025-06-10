@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Loop through each product image and add event listener
     productImages.forEach((image) => {
         image.addEventListener("click", function () {
-            window.location.href = "../web/product_details_user.html";
+            window.location.href = "web/product_details_user.html";
         });
     });
 });
