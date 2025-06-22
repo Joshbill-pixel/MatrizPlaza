@@ -4,7 +4,8 @@ const navbarLinks = document.querySelector('.navbar-links');
 hamburger.addEventListener('click', (e) => {
     e.preventDefault();
     navbarLinks.classList.toggle('active');
-    navbarLinks.style.transition = 'transform 0.5s ease-in-out';
+    navbarLinks.style.transition = 'transform 1s ease-in-out';
+    navbarLinks.style.height = '100vh';
 });
 
 const closeBtn = document.querySelector('.menu-close');
